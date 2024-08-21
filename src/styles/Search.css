@@ -1,0 +1,39 @@
+.search {
+    margin: 20px;
+  }
+  
+  .search input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-results {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+  }
+  
+  
+
+  .search-item {
+    padding: 10px;
+    height: fit-content;
+    width: 300px;
+    background-color: #f8f9fa;
+    margin-bottom: 2px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    color: black;
+  }
+
+  .search-item h5{
+    overflow: hidden;
+    margin:1px;
+  width: 300px;
+  }
+  

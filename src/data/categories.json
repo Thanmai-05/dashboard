@@ -1,0 +1,41 @@
+{
+    "categories": [
+      {
+        "name": "CSPM Executive Dashboard",
+        "widgets": [
+          {
+            "name": "Cloud Accounts",
+            "text": "Random text for Cloud Accounts"
+          },
+          {
+            "name": "Cloud Account Risk Assessment",
+            "text": "Random text for Cloud Account Risk Assessment"
+          },
+          {
+            "name": "CWPP Dashboard",
+            "text": "Random text for CWPP Dashboard"
+          },
+          {
+            "name": "Top 5 Namespace Specific Alerts",
+            "text": "Random text for Top 5 Namespace Specific Alerts"
+          },
+          {
+            "name": "Workload Alerts",
+            "text": "Random text for Workload Alerts"
+          },
+          {
+            "name": "Registry Scan",
+            "text": "Random text for Registry Scan"
+          },
+          {
+            "name": "Image Risk Assessment",
+            "text": "Random text for Image Risk Assessment"
+          },
+          {
+            "name": "Image Security Issues",
+            "text": "Random text for Image Security Issues"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,30 @@
+.widget {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  width: 200px;
+  position: relative;
+}
+
+.widget-header {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.widget-header h5{
+  overflow: hidden;
+}
+
+.remove-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #dc3545;
+}
+
+.remove-btn:hover {
+  color: #c82333;
+}
