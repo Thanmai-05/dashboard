@@ -6,21 +6,71 @@
   background-color: #282c34;
   padding: 20px;
   color: white;
-  display:flex;
-  justify-content:space-between;
-}
-
-.dashboard {
-  padding: 20px;
+  display: flex;
+  flex-wrap: wrap; /* Allows header items to wrap when screen is small */
+  justify-content: space-between;
+  align-items: center; /* Center items vertically */
+  flex-wrap:wrap;
+  
 }
 
 .category {
   margin-bottom: 30px;
 }
 
-.widgets {
-  display: flex;
-  flex-wrap: wrap;
+.add-widget-button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 20px;
 }
 
+.add-widget-button:hover {
+  background-color: #0056b3;
+}
 
+.top-bar-actions {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping of search and buttons */
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end; /* Align items to start */
+  
+}
+
+.top-bar-actions button {
+  width: fit-content;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+}
+
+.top-bar-actions button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .App-header {
+    flex-direction: column; /* Stacks elements vertically on smaller screens */
+    align-items: center; /* Center elements */
+  }
+
+  .top-bar-actions {
+    flex-direction: column; /* Stack search bar and buttons */
+    align-items: stretch; /* Full width on small screens */
+  }
+
+  .top-bar-actions button {
+    width: 100%; /* Full width buttons on small screens */
+    margin-bottom: 10px; /* Space between stacked buttons */
+  }
+
+  .search {
+    max-width: 100%; /* Full width on small screens */
+  }
+}
