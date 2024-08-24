@@ -4,10 +4,8 @@ Table of Contents
 1. Features
 2. Technologies Used
 3. Installation
-4. Usage
-5. Folder Structure
-6. Contributing
-7. License
+4. Contributing
+5. License
 
 Features
 Add Widgets: Easily add different widgets to your dashboard to visualize various CNAPP components.
@@ -24,9 +22,26 @@ CSS: Styling for a responsive and visually appealing UI.
 Installation
 To get started with the CNAPP Dashboard application, follow these steps:
 
-Clone the repository: https://github.com/Thanmai-05/dashboard.git
-Navigate to the project directory:cd cnapp-dashboard
-Install dependencies: npm install
-Start the application: npm start
-Open your web browser and navigate to http://localhost:3000
+1. Clone the repository: https://github.com/Thanmai-05/dashboard.git
+2. Navigate to the project directory:cd cnapp-dashboard
+3. Install dependencies: npm install
+4. Start the application: npm start
+    Open your web browser and navigate to http://localhost:3000
 
+Contributing
+Contributions are welcome! If you have any suggestions or improvements, feel free to create an issue or submit a pull request. Please ensure your code follows the existing code style and includes tests where appropriate.
+
+Fork the repository.
+Create a new branch:
+Copy code
+git checkout -b feature-branch
+Make your changes and commit them:
+Copy code
+git commit -m 'Add some feature'
+Push to the branch:
+Copy code
+git push origin feature-branch
+Create a pull request.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
