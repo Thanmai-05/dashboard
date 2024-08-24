@@ -30,33 +30,3 @@ Install dependencies: npm install
 Start the application: npm start
 Open your web browser and navigate to http://localhost:3000
 
-File structure
-DASHBOARD/
-├── node_modules/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── AddWidgetBar.js
-│   │   ├── AddWidgetModal.js
-│   │   ├── Dashboard.js
-│   │   ├── Search.js
-│   │   └── Widget.js
-│   ├── data/
-│   │   └── categories.json
-│   ├── redux/
-│   │   ├── actions.js
-│   │   ├── reducer.js
-│   │   └── store.js
-│   ├── styles/
-│   │   ├── App.css
-│   │   ├── index.css
-│   │   └── App.test.js
-│   ├── App.js
-│   ├── index.js
-│   ├── logo.svg
-│   ├── reportWebVitals.js
-│   └── setupTests.js
-├── .gitignore
-├── package-lock.json
-├── package.json
-└── README.md
